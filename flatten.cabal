@@ -1,0 +1,24 @@
+name:                flatten
+version:             0.1
+synopsis:            NS internal tool
+description:         NS internal tool
+homepage:            
+license:             BSD3
+license-file:        LICENSE
+author:              wkoiking
+maintainer:          wanagida@gmail.com
+category:            Utility
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Flatten
+  build-depends:       base >= 2.0, lens, containers, parsec, directory, bytestring, old-time, text, my-parser
+
+  -- Modules not exported by this package.
+  -- Other-modules:       
+  
+  -- Extra tools (e.g. alex, hsc2hs, ...) needed to build the source.
+  -- Build-tools:         
+  
